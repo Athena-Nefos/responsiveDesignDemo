@@ -1,0 +1,63 @@
+@media screen and (max-width: 1880px)  {
+    body{
+
+    background-color: lightgreen;
+    color: darkgreen;
+    }
+    .superContainer {
+        border: solid white;
+        height: 1200vh;
+        margin: 3em;
+        display: flex;
+    }
+    
+}
+
+/* -------- screenSize: Desktop ----- */
+
+ 
+
+@media (max-width: 1280px)  {
+        body {
+            background-color: lightblue;
+            color: purple;
+        }
+        .superContainer {
+            border: solid white;
+            height: 1200vh;
+            margin: 1em;
+        }
+    }
+
+    /* -------- screenSize: Mid -------- */
+
+
+
+    @media (max-width: 580px){
+        body {
+            background-color: black;
+            color: yellow;
+        }
+        .superContainer {
+            border: solid white;
+            height: 1200vh;
+            margin: auto;
+        }
+    }
+    /*  ----- Screen Mobile   */
+
+    /* -------GENERAL------- */
+    .superContainer {
+        border: solid white;
+        height: 1200vh;
+    }
+    .sideNav{
+        border: lime;
+    }
+    .containerPrimary {
+        border: orange;
+
+    }
+    .optionsContainer{
+        border: blue;
+    }
